@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="video-background">
                     <div class="video-foreground">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fj82pwX6GrM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=fj82pwX6GrM" frameborder="0" allowfullscreen>
+                        <iframe id="playlist" width="560" height="315" src="https://www.youtube.com/embed/fj82pwX6GrM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=fj82pwX6GrM" frameborder="0" allowfullscreen>
                         </iframe>
                     </div>
                   </div>
@@ -20,3 +20,7 @@
         </body>
     </html>
 
+<scrypt>
+    var myVideo =  iframe.getElementById('playlist'); 
+    myVideo.mute();
+</scrypt>
