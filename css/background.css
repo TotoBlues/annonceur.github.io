@@ -1,6 +1,7 @@
 .video-background {
   background: #fff;
   position: fixed;
+  display : block;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
@@ -15,12 +16,11 @@
 }
 
 .containerRss {
-  position : absolute;
+  position : relative;
   display : block;
   top : 0;
-  left : 80%;
+  left : 0;
   background-color : green;
   color : white;
-  width : 20%;
-  height : 90%;
+  height : 89%;
 }
