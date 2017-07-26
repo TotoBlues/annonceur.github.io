@@ -15,7 +15,7 @@
 }
 
 .containerRss {
-  position absolute;
+  position : absolute;
   display : block;
   top : 0;
   left : 90%;
